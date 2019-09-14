@@ -1,0 +1,11 @@
+Popis programu:
+Po spustení programu pouívate¾ovi vyskoèí dialógové okno na vıber súboru, z ktorého môe naèíta vstup.
+Predpokladá sa, e vstupnı súbor je korektnı a obsahuje 1 alebo viac riadkov s 3-znakovım kódom meny a èiastkou(celé èíslo).
+Pouívate¾ sa môe rozhodnú èi nejakı súbor zvolí alebo nie.
+Po potvrdení súboru je pouívate¾ovi do konzoly vypísanı vıstup s kódmi mien a súètom èiastok pre kadú menu. Tento vıpis vıstupu
+do konzoly sa opakuje kadú minútu. 
+Pouívate¾ môe do konzoly vpisova ïalšie riadky v rovnakom formáte (3-znakovı kód meny, medzera a celá èiastka). V následnom
+vıstupe sú tieto èiastky prirátané k danım menám.
+Ak pouívate¾ vpíše do konzoly slovo "quit", program je ukonèenı.
+Kontroly - pouívate¾ nesmie zada inı, ne 3-znakovı kód meny. Ak tak urobí, program sa ukonèí a vypíše sa chyba
+		 - pouívate¾ smie zada èiastku len vo formáte celého èísla. Ak tak neurobí, program sa ukonèí a vypíše sa chyba.
